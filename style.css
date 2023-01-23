@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    font-family: "Roboto",sans-serif;
+    background: url(galaxy1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: calc(100vh - 100px);
+    
+}
+header{
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+}
+.logo{ 
+    
+    display:flex;
+    padding:20px;
+    margin: 18px;
+    
+}
+.img{
+    border-radius:30%;
+
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+
+}
+main{
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+    font-size:100px;
+}
+
+.sign-in{
+    color: blueviolet;
+}
+.sign-in :hover{
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: flex-start;
+
+    
+}
+.register{
+    border: 2px solid white;
+    padding: 5px;
+    background-color:rgb(24, 2, 26) ;
+}
+.register :hover{
+    color: blueviolet;
+    background-color: white;
+}
+p{
+    font-size: 50px;
+}
+
+input[type="button"] {
+    border: 3px solid white;
+    background-color: rgb(25, 2, 47);
+    border-radius: 5px;
+    padding: 10px 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
